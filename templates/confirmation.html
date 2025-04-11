@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+     <title>Confirmation</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+ </head>
+ <body>
+     <h2>Submission Confirmation</h2>
+     <p><strong>Name:</strong> {{ name }}</p>
+     <p><strong>Email:</strong> {{ email }}</p>
+     <p><strong>Phone:</strong> {{ phone }}</p>
+     <p><strong>Message:</strong> {{ message }}</p>
+     <p><strong>Subject:</strong> {{ subject }}</p>
+     <p><strong>Preferred Contact Method:</strong> {{ contact_methods }}</p>
+     <p><strong>Agreed to Terms:</strong> {{ agreement }}</p>
+ </body>
+ </html>
